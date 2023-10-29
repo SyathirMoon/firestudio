@@ -1,49 +1,45 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fire Studio | Under Construction</title>
+    <link rel="stylesheet" href="style.css">
     <style>
-body{background-color:#333;color:#ffffff;}
-body {
+        body {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.centered-div {
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: solid 1px black;
+    box-shadow: 20px 20px 15px 14px black;
+}
+
+.box {
+    width: 200px; /* Sesuaikan dengan ukuran yang Anda inginkan */
+    height: 200px; /* Sesuaikan dengan ukuran yang Anda inginkan */
+    background-color: white; /* Warna latar belakang kotak */
+    color: #000; /* Warna teks di dalam kotak */
     text-align: center;
     padding: 20px;
-    border: 1px solid #ccc;
-    background-color: #333;
 }
-a {
-    color:#f0f0f0;
-}
-a:visited {
-    color:#f0f0f0!
-}
-/* Definisikan animasi */
-  @keyframes backgroundAnimation {
-    0% { background-color: #ff5733; } /* Warna latar belakang pada awal animasi */
-    100% { background-color: #33ff57; } /* Warna latar belakang pada akhir animasi */
-  }
 
- /* Terapkan animasi ke elemen */
-  #animated-background {
-    width: 100%;
-    height: 100vh;
-    animation: backgroundAnimation 5s infinite; /* Animasi akan berjalan selamanya setiap 5 detik */
-  }
-</style>
+    </style>
 </head>
 <body>
-    <div id="animated-background">
-      <br><br><br><br>
-        <center>
-        <h1>Tunggu Entar ya bosque....</h1>
-        <h3>Soalnya masih "UNDER CONSTRUCTIION"</h3>
-            </center>
+    <div class="container">
+        <div class="box"><br>
+            <h1>Under Construction Please Wait</h1>
+        </div>
     </div>
 </body>
 </html>
